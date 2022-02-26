@@ -1,6 +1,6 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import { Home, Login } from "./pages";
+import { Home, Login, Signup } from "./pages";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<Home />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </div>
   );
