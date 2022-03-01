@@ -24,7 +24,7 @@ export const Login = () => {
           placeholder="Enter password"
           className="m-1 p-2 rounded-lg outline-none"
         />
-        <button className="border-2 bg-pink-500 rounded-lg m-2 p-2 text-white font-bold text-xl hover:bg-white hover:text-pink-500 hover:border-pink-600">
+        <button className="bg-pink-500 rounded-lg m-2 p-2 text-white font-bold text-xl">
           Login
         </button>
         <p className="font-bold">OR</p>
